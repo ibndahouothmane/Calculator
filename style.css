@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: linear-gradient(90deg, rgba(116,111,196,1) 0%, rgba(121,9,9,1) 50%, rgba(0,212,255,1) 100%);
+
+}
+.main {
+    text-align: center;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid black;
+    width: 350px;
+    border-radius: 10%;
+    background-color: cadetblue;
+}
+
+form {
+    padding: 0 5px;
+    margin-bottom: 15px;
+
+}
+
+.text {
+    background-color: rgb(95, 210, 214);
+    width: 94%;
+    height: 20px;
+    padding: 10px;
+    border-style: none;
+    pointer-events: none;
+
+}
+
+input[type=text] {
+    text-align: right;
+}
+
+input {
+    width: 23%;
+    padding: 8px;
+    margin: 0 1px 8px;
+
+    border-style: none;
+    cursor: pointer;
+    color: #000;
+    font-size: large;
+
+}
+
+.egal:hover {
+    background-color: #3e444b;
+
+}
+
+.slash:hover {
+    background-color: #e45160;
+
+}
+
+.Multiply:hover {
+    background-color: #3fbb5c;
+
+}
+
+.Minus:hover {
+    background-color: #f5cc52;
+
+}
+
+.Plus:hover {
+    background-color: #4097f3;
+}
+
+.egal {
+    width: 47.9%;
+    background-color: #343a40;
+}
+.c{
+    width: 35%;
+
+}
+.slash {
+    background-color: #dc3545;
+}
+
+.Multiply {
+    background-color: #28a745;
+}
+
+.Minus {
+    background-color: #ffc107;
+}
+
+.Plus {
+    background-color: #007bff;
+}
+h1{
+    text-align: center;
+    margin-top: 170px;
+    color: #fff;
+}
